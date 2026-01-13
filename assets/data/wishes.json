@@ -1,0 +1,1066 @@
+{
+  "categories": [
+    {
+      "id": "funny",
+      "name": "Funny Wishes",
+      "emoji": "🎉",
+      "color": "#FFE066"
+    },
+    {
+      "id": "romantic",
+      "name": "Romantic Wishes",
+      "emoji": "💖",
+      "color": "#FF6B9D"
+    },
+    {
+      "id": "family",
+      "name": "Family Wishes",
+      "emoji": "👨‍👩‍👧",
+      "color": "#6BCB77"
+    },
+    {
+      "id": "friend",
+      "name": "Friend Wishes",
+      "emoji": "🙌",
+      "color": "#4D96FF"
+    },
+    {
+      "id": "inspirational",
+      "name": "Inspirational Wishes",
+      "emoji": "🌸",
+      "color": "#C9A7EB"
+    },
+    {
+      "id": "professional",
+      "name": "Professional Wishes",
+      "emoji": "💼",
+      "color": "#5DADE2"
+    },
+    {
+      "id": "milestone",
+      "name": "Milestone Birthdays",
+      "emoji": "🎊",
+      "color": "#F39C12"
+    },
+    {
+      "id": "spiritual",
+      "name": "Spiritual Wishes",
+      "emoji": "🙏",
+      "color": "#9B59B6"
+    },
+    {
+      "id": "kids",
+      "name": "Kids & Teens",
+      "emoji": "🎈",
+      "color": "#FF6B6B"
+    },
+    {
+      "id": "belated",
+      "name": "Belated Wishes",
+      "emoji": "⏰",
+      "color": "#95A5A6"
+    }
+  ],
+  "wishes": [
+    {
+      "id": "funny_1",
+      "categoryId": "funny",
+      "text": "Happy Birthday! 🎂 You're not old, you're just well-seasoned... like a fine cheese! 🧀"
+    },
+    {
+      "id": "funny_2",
+      "categoryId": "funny",
+      "text": "Another year older, another year wiser... just kidding! Have a crazy fun birthday! 🎈🤪"
+    },
+    {
+      "id": "funny_3",
+      "categoryId": "funny",
+      "text": "Happy Birthday! 🎉 Don't worry about getting older – you still look young... from far away! 😂"
+    },
+    {
+      "id": "funny_4",
+      "categoryId": "funny",
+      "text": "Congrats on surviving another trip around the sun! 🌞 Now let's eat cake! 🎂"
+    },
+    {
+      "id": "funny_5",
+      "categoryId": "funny",
+      "text": "Happy Birthday! 🥳 Remember, age is just a number... a really, REALLY big number! 😄"
+    },
+    {
+      "id": "funny_6",
+      "categoryId": "funny",
+      "text": "You know you're getting old when the candles cost more than the cake! 🎂🔥 Happy Birthday!"
+    },
+    {
+      "id": "funny_7",
+      "categoryId": "funny",
+      "text": "Happy Birthday! 🎉 At your age, you've seen it all, done it all, but can't remember it all! 😅"
+    },
+    {
+      "id": "funny_8",
+      "categoryId": "funny",
+      "text": "Don't let aging get you down... it's too hard to get back up! 🤣 Happy Birthday, old friend!"
+    },
+    {
+      "id": "funny_9",
+      "categoryId": "funny",
+      "text": "Happy Birthday! 🥳 You're like a fine wine – you get better with age... and give people headaches! 🍷"
+    },
+    {
+      "id": "funny_10",
+      "categoryId": "funny",
+      "text": "Birthdays are nature's way of telling us to eat more cake! 🍰 So let's get started! 🎊"
+    },
+    {
+      "id": "funny_11",
+      "categoryId": "funny",
+      "text": "Happy Birthday! 🎈 I'd make a joke about your age, but I'm afraid you'd forget it anyway! 😜"
+    },
+    {
+      "id": "funny_12",
+      "categoryId": "funny",
+      "text": "Congratulations on being born a really long time ago! 🎂 Time flies when you're having fun!"
+    },
+    {
+      "id": "funny_13",
+      "categoryId": "funny",
+      "text": "Happy Birthday! 🎉 You're not getting older, you're increasing in value like a vintage collectible! 💎"
+    },
+    {
+      "id": "funny_14",
+      "categoryId": "funny",
+      "text": "Growing old is mandatory, but growing up is optional! 🎈 Keep being awesome! 🤘"
+    },
+    {
+      "id": "funny_15",
+      "categoryId": "funny",
+      "text": "Happy Birthday! 🥳 May your birthday cake be moist and your back pain be minimal! 😂"
+    },
+    {
+      "id": "funny_16",
+      "categoryId": "funny",
+      "text": "You're not old until your birthday candles become a fire hazard! 🔥 Almost there! Happy Birthday! 🎂"
+    },
+    {
+      "id": "funny_17",
+      "categoryId": "funny",
+      "text": "Happy Birthday! 🎊 Remember when we thought people our age were adults? Good times! 😅"
+    },
+    {
+      "id": "funny_18",
+      "categoryId": "funny",
+      "text": "On your birthday, calories don't count! 🍰 Unfortunately, years still do! 😜 Have a blast!"
+    },
+    {
+      "id": "funny_19",
+      "categoryId": "funny",
+      "text": "Happy Birthday! 🎉 You're officially at the age where your back goes out more than you do! 🤣"
+    },
+    {
+      "id": "funny_20",
+      "categoryId": "funny",
+      "text": "Age is a high price to pay for maturity! 💸 Luckily, you're still immature! 🎈 Happy Birthday!"
+    },
+    {
+      "id": "romantic_1",
+      "categoryId": "romantic",
+      "text": "Happy Birthday, my love! 💕 Every moment with you is a gift. Here's to many more together! 💖"
+    },
+    {
+      "id": "romantic_2",
+      "categoryId": "romantic",
+      "text": "To the one who makes my heart skip a beat 💓 Happy Birthday, my darling! You're my everything! ✨"
+    },
+    {
+      "id": "romantic_3",
+      "categoryId": "romantic",
+      "text": "On your special day, I just want to say: you're the best thing that ever happened to me! 💝 Happy Birthday! 🌹"
+    },
+    {
+      "id": "romantic_4",
+      "categoryId": "romantic",
+      "text": "Happy Birthday to my forever person! 💑 May all your dreams come true, my love! 🌟💖"
+    },
+    {
+      "id": "romantic_5",
+      "categoryId": "romantic",
+      "text": "With you, every day feels like a celebration! 🎊 Happy Birthday, sweetheart! 💕 I love you endlessly! 💋"
+    },
+    {
+      "id": "romantic_6",
+      "categoryId": "romantic",
+      "text": "Happy Birthday to the person who completes me! 💖 My love for you grows stronger every year! 🌹"
+    },
+    {
+      "id": "romantic_7",
+      "categoryId": "romantic",
+      "text": "You're not just my love, you're my best friend and my soulmate! 💑 Happy Birthday, beautiful! ✨"
+    },
+    {
+      "id": "romantic_8",
+      "categoryId": "romantic",
+      "text": "Happy Birthday, my angel! 😇 You make my world brighter and my heart fuller! 💝 I adore you!"
+    },
+    {
+      "id": "romantic_9",
+      "categoryId": "romantic",
+      "text": "To my one and only! 💕 Happy Birthday! Thank you for filling my life with love and laughter! 🎂💖"
+    },
+    {
+      "id": "romantic_10",
+      "categoryId": "romantic",
+      "text": "Happy Birthday to my better half! 💏 You make every day magical! I'm so lucky to love you! ✨"
+    },
+    {
+      "id": "romantic_11",
+      "categoryId": "romantic",
+      "text": "My love, on your birthday, I want you to know you're the reason I smile every day! 💖 Happy Birthday! 🌹"
+    },
+    {
+      "id": "romantic_12",
+      "categoryId": "romantic",
+      "text": "Happy Birthday to the keeper of my heart! 💓 You're my greatest adventure and my safest place! 🏡💕"
+    },
+    {
+      "id": "romantic_13",
+      "categoryId": "romantic",
+      "text": "Every love song reminds me of you! 🎵 Happy Birthday, my darling! You're my melody! 💖🎶"
+    },
+    {
+      "id": "romantic_14",
+      "categoryId": "romantic",
+      "text": "Happy Birthday to my sunshine! ☀️ You light up my life in ways words can't express! 💕✨"
+    },
+    {
+      "id": "romantic_15",
+      "categoryId": "romantic",
+      "text": "To the love of my life! 💑 Happy Birthday! I fall in love with you more every single day! 💖"
+    },
+    {
+      "id": "romantic_16",
+      "categoryId": "romantic",
+      "text": "Happy Birthday, gorgeous! 😍 You're aging like fine wine – more beautiful with every year! 🍷💕"
+    },
+    {
+      "id": "romantic_17",
+      "categoryId": "romantic",
+      "text": "You stole my heart, but I'll let you keep it! 💝 Happy Birthday, my love! Forever yours! 💖"
+    },
+    {
+      "id": "romantic_18",
+      "categoryId": "romantic",
+      "text": "Happy Birthday to my dream come true! 🌟 Loving you is the best decision I ever made! 💕"
+    },
+    {
+      "id": "romantic_19",
+      "categoryId": "romantic",
+      "text": "My darling, happy birthday! 🎂 You're the missing piece that makes my life complete! 💖🧩"
+    },
+    {
+      "id": "romantic_20",
+      "categoryId": "romantic",
+      "text": "Happy Birthday to my eternal flame! 🔥 My love for you will never fade! 💕 You're my everything! 💖"
+    },
+    {
+      "id": "family_1",
+      "categoryId": "family",
+      "text": "Happy Birthday, dear! 🎂 You bring so much joy and love to our family! We're blessed to have you! 💚"
+    },
+    {
+      "id": "family_2",
+      "categoryId": "family",
+      "text": "To the best [Mom/Dad/Sister/Brother]! 👨‍👩‍👧‍👦 Happy Birthday! Thank you for always being there! 🤗💕"
+    },
+    {
+      "id": "family_3",
+      "categoryId": "family",
+      "text": "Family means everything, and you're at the heart of ours! 💖 Happy Birthday! May your day be as wonderful as you! 🎉"
+    },
+    {
+      "id": "family_4",
+      "categoryId": "family",
+      "text": "Happy Birthday! 🎈 Your love and warmth make our family complete! Wishing you endless happiness! 🌈"
+    },
+    {
+      "id": "family_5",
+      "categoryId": "family",
+      "text": "To my amazing [family member]! 👪 Happy Birthday! May this year bring you all the love and joy you deserve! 🎁"
+    },
+    {
+      "id": "family_6",
+      "categoryId": "family",
+      "text": "Happy Birthday to the glue that holds our family together! 💚 We love you more than words can say! 🤗"
+    },
+    {
+      "id": "family_7",
+      "categoryId": "family",
+      "text": "To my wonderful [family member]! 👨‍👩‍👧 Happy Birthday! Thank you for all the memories and love! 💕🎂"
+    },
+    {
+      "id": "family_8",
+      "categoryId": "family",
+      "text": "Happy Birthday! 🎉 You're not just family, you're a blessing in our lives! May your day sparkle! ✨"
+    },
+    {
+      "id": "family_9",
+      "categoryId": "family",
+      "text": "Sending you oceans of love on your birthday! 🌊💙 You make our family so special! Happy Birthday! 🎈"
+    },
+    {
+      "id": "family_10",
+      "categoryId": "family",
+      "text": "Happy Birthday to our family treasure! 💎 Your kindness and love inspire us every day! 🌟💚"
+    },
+    {
+      "id": "family_11",
+      "categoryId": "family",
+      "text": "To the one who taught me so much! 📚 Happy Birthday! Your wisdom and love guide me always! 💕"
+    },
+    {
+      "id": "family_12",
+      "categoryId": "family",
+      "text": "Happy Birthday! 🎂 Blood makes us related, but love makes us family! So grateful for you! 💚👪"
+    },
+    {
+      "id": "family_13",
+      "categoryId": "family",
+      "text": "You're the heart of our home! 🏡 Happy Birthday! May your day be filled with love and laughter! 🎉💕"
+    },
+    {
+      "id": "family_14",
+      "categoryId": "family",
+      "text": "Happy Birthday to my role model and hero! 🦸 Thank you for being the best [family member] ever! 💚"
+    },
+    {
+      "id": "family_15",
+      "categoryId": "family",
+      "text": "To the person who makes family gatherings so special! 🎊 Happy Birthday! We love you tons! 💕"
+    },
+    {
+      "id": "family_16",
+      "categoryId": "family",
+      "text": "Happy Birthday! 🎈 Your presence makes every moment brighter! Blessed to call you family! 🌟💚"
+    },
+    {
+      "id": "family_17",
+      "categoryId": "family",
+      "text": "To my favorite [family member]! 👨‍👩‍👧‍👦 Happy Birthday! May this year bring you abundant blessings! 🎁💕"
+    },
+    {
+      "id": "family_18",
+      "categoryId": "family",
+      "text": "Happy Birthday! 🎂 You've given us countless memories and endless love! Here's to many more! 💚✨"
+    },
+    {
+      "id": "family_19",
+      "categoryId": "family",
+      "text": "Family like you is a gift from above! 🎁 Happy Birthday! May your day be as amazing as you are! 💕"
+    },
+    {
+      "id": "family_20",
+      "categoryId": "family",
+      "text": "Happy Birthday to the one who makes every day brighter! ☀️ Our family is better because of you! 💚🎉"
+    },
+    {
+      "id": "friend_1",
+      "categoryId": "friend",
+      "text": "Happy Birthday to my bestie! 🎊 Here's to another year of crazy adventures together! 🤝🎉"
+    },
+    {
+      "id": "friend_2",
+      "categoryId": "friend",
+      "text": "They say friends are the family we choose! 👯 Happy Birthday to my chosen one! 💙 Have an amazing day!"
+    },
+    {
+      "id": "friend_3",
+      "categoryId": "friend",
+      "text": "Happy Birthday, friend! 🥳 Thanks for all the laughs, memories, and being awesome! 🙌✨"
+    },
+    {
+      "id": "friend_4",
+      "categoryId": "friend",
+      "text": "To my partner in crime! 🕵️ Happy Birthday! May your day be as epic as our friendship! 🎈💪"
+    },
+    {
+      "id": "friend_5",
+      "categoryId": "friend",
+      "text": "Happy Birthday! 🎂 Life is better with friends like you! Cheers to our friendship! 🥂💙"
+    },
+    {
+      "id": "friend_6",
+      "categoryId": "friend",
+      "text": "Happy Birthday to my ride-or-die! 🚗 Thanks for always having my back! Let's celebrate! 🎉💙"
+    },
+    {
+      "id": "friend_7",
+      "categoryId": "friend",
+      "text": "To my soul sister/brother! 👯‍♀️ Happy Birthday! You make life so much more fun! 🎊💕"
+    },
+    {
+      "id": "friend_8",
+      "categoryId": "friend",
+      "text": "Happy Birthday, buddy! 🎈 Here's to the friend who knows all my secrets and loves me anyway! 😂💙"
+    },
+    {
+      "id": "friend_9",
+      "categoryId": "friend",
+      "text": "To the friend who's seen me at my worst and still sticks around! 🤗 Happy Birthday! You're the best! 🎉"
+    },
+    {
+      "id": "friend_10",
+      "categoryId": "friend",
+      "text": "Happy Birthday to my favorite human! 🙌 Thanks for making ordinary days extraordinary! 💙✨"
+    },
+    {
+      "id": "friend_11",
+      "categoryId": "friend",
+      "text": "Cheers to my forever friend! 🥂 Happy Birthday! Distance means nothing when friendship means everything! 💙"
+    },
+    {
+      "id": "friend_12",
+      "categoryId": "friend",
+      "text": "Happy Birthday! 🎂 Remember, we'll be friends until we're old and senile... then we'll be new friends! 😄"
+    },
+    {
+      "id": "friend_13",
+      "categoryId": "friend",
+      "text": "To my favorite weirdo! 🤪 Happy Birthday! Never change – the world needs your kind of crazy! 🎉💙"
+    },
+    {
+      "id": "friend_14",
+      "categoryId": "friend",
+      "text": "Happy Birthday to the friend who makes me laugh until I cry! 😂 May your day be as amazing as you! 🎊"
+    },
+    {
+      "id": "friend_15",
+      "categoryId": "friend",
+      "text": "You're not just my friend, you're my chosen family! 💙 Happy Birthday! Let's make more memories! 🎈"
+    },
+    {
+      "id": "friend_16",
+      "categoryId": "friend",
+      "text": "Happy Birthday to my adventure buddy! 🗺️ Here's to more spontaneous trips and wild stories! 🎉💙"
+    },
+    {
+      "id": "friend_17",
+      "categoryId": "friend",
+      "text": "To the friend who gets my humor! 😂 Happy Birthday! Thanks for laughing at my terrible jokes! 🎂💙"
+    },
+    {
+      "id": "friend_18",
+      "categoryId": "friend",
+      "text": "Happy Birthday! 🥳 Friends like you don't come around often – you're one in a million! 💙✨"
+    },
+    {
+      "id": "friend_19",
+      "categoryId": "friend",
+      "text": "To my day one! 🎊 Happy Birthday! Thanks for being there through thick and thin! 💙🙌"
+    },
+    {
+      "id": "friend_20",
+      "categoryId": "friend",
+      "text": "Happy Birthday to the friend who feels more like family! 👯 May your year be filled with joy! 💙🎉"
+    },
+    {
+      "id": "inspirational_1",
+      "categoryId": "inspirational",
+      "text": "Happy Birthday! 🌟 May this new chapter of your life be filled with beautiful moments and endless possibilities! ✨"
+    },
+    {
+      "id": "inspirational_2",
+      "categoryId": "inspirational",
+      "text": "Another year, another chance to make your dreams come true! 🌈 Happy Birthday! Believe in yourself! 💪🎂"
+    },
+    {
+      "id": "inspirational_3",
+      "categoryId": "inspirational",
+      "text": "Happy Birthday! 🎉 You are capable of amazing things! May this year bring you closer to your goals! 🚀"
+    },
+    {
+      "id": "inspirational_4",
+      "categoryId": "inspirational",
+      "text": "Celebrate the gift of life today! 🌸 Happy Birthday! May you shine bright and inspire others! ⭐"
+    },
+    {
+      "id": "inspirational_5",
+      "categoryId": "inspirational",
+      "text": "Happy Birthday! 🎁 Remember: every day is a new opportunity to grow, love, and live your best life! 💖🌻"
+    },
+    {
+      "id": "inspirational_6",
+      "categoryId": "inspirational",
+      "text": "Happy Birthday! 🌟 Your journey has just begun! Embrace the adventure ahead with courage and grace! 🦋"
+    },
+    {
+      "id": "inspirational_7",
+      "categoryId": "inspirational",
+      "text": "May this birthday mark the beginning of your greatest chapter yet! 📖 Dream big and soar high! 🦅✨"
+    },
+    {
+      "id": "inspirational_8",
+      "categoryId": "inspirational",
+      "text": "Happy Birthday! 🎂 You have the power to create the life you've always imagined! Believe and achieve! 💫"
+    },
+    {
+      "id": "inspirational_9",
+      "categoryId": "inspirational",
+      "text": "Another year wiser, stronger, and more amazing! 💪 Happy Birthday! Your potential is limitless! 🌈"
+    },
+    {
+      "id": "inspirational_10",
+      "categoryId": "inspirational",
+      "text": "Happy Birthday! 🎉 May you have the courage to chase your dreams and the strength to catch them! 🌟"
+    },
+    {
+      "id": "inspirational_11",
+      "categoryId": "inspirational",
+      "text": "Celebrate yourself today! 🎊 You've overcome so much and grown beautifully! Happy Birthday! 🌺💪"
+    },
+    {
+      "id": "inspirational_12",
+      "categoryId": "inspirational",
+      "text": "Happy Birthday! 🌟 Your light brightens the world! Keep shining and inspiring those around you! ✨"
+    },
+    {
+      "id": "inspirational_13",
+      "categoryId": "inspirational",
+      "text": "May this year bring you wisdom, joy, and countless blessings! 🙏 Happy Birthday! You're destined for greatness! 🌟"
+    },
+    {
+      "id": "inspirational_14",
+      "categoryId": "inspirational",
+      "text": "Happy Birthday! 🎂 Life is a beautiful journey – embrace every moment and make it count! 🌈💖"
+    },
+    {
+      "id": "inspirational_15",
+      "categoryId": "inspirational",
+      "text": "You are a masterpiece in progress! 🎨 Happy Birthday! Keep growing, learning, and becoming! ✨"
+    },
+    {
+      "id": "inspirational_16",
+      "categoryId": "inspirational",
+      "text": "Happy Birthday! 🌸 May your dreams take flight and your spirit soar to new heights! 🕊️💫"
+    },
+    {
+      "id": "inspirational_17",
+      "categoryId": "inspirational",
+      "text": "Another year of opportunities awaits! 🚪 Happy Birthday! Step boldly into your future! 🌟💪"
+    },
+    {
+      "id": "inspirational_18",
+      "categoryId": "inspirational",
+      "text": "Happy Birthday! 🎉 Your story is still being written – make it extraordinary! 📝✨"
+    },
+    {
+      "id": "inspirational_19",
+      "categoryId": "inspirational",
+      "text": "Celebrate how far you've come and get excited for where you're going! 🛤️ Happy Birthday! 🌟"
+    },
+    {
+      "id": "inspirational_20",
+      "categoryId": "inspirational",
+      "text": "Happy Birthday! 🎂 You are braver than you believe and stronger than you seem! Keep shining! 💫"
+    },
+    {
+      "id": "professional_1",
+      "categoryId": "professional",
+      "text": "Happy Birthday! 🎉 Wishing you continued success and prosperity in the year ahead! Best regards! 💼"
+    },
+    {
+      "id": "professional_2",
+      "categoryId": "professional",
+      "text": "Warmest birthday wishes to an exceptional colleague! 🎂 May your year be filled with achievements! 🌟"
+    },
+    {
+      "id": "professional_3",
+      "categoryId": "professional",
+      "text": "Happy Birthday! 🎊 Your dedication and professionalism inspire us all! Wishing you a wonderful day! 💼"
+    },
+    {
+      "id": "professional_4",
+      "categoryId": "professional",
+      "text": "Wishing you a very happy birthday! 🎈 May this year bring you new opportunities and success! 🚀"
+    },
+    {
+      "id": "professional_5",
+      "categoryId": "professional",
+      "text": "Happy Birthday to a valued team member! 🎉 Your contributions make a real difference! Enjoy your day! 💼"
+    },
+    {
+      "id": "professional_6",
+      "categoryId": "professional",
+      "text": "Happy Birthday! 🎂 It's a pleasure working with someone as talented and dedicated as you! 🌟"
+    },
+    {
+      "id": "professional_7",
+      "categoryId": "professional",
+      "text": "Wishing you a fantastic birthday! 🎊 May the coming year bring exciting projects and achievements! 💼"
+    },
+    {
+      "id": "professional_8",
+      "categoryId": "professional",
+      "text": "Happy Birthday! 🎈 Your leadership and expertise are truly appreciated! Have a great celebration! 🌟"
+    },
+    {
+      "id": "professional_9",
+      "categoryId": "professional",
+      "text": "Warmest wishes on your birthday! 🎉 Thank you for your outstanding work and commitment! 💼✨"
+    },
+    {
+      "id": "professional_10",
+      "categoryId": "professional",
+      "text": "Happy Birthday! 🎂 May this year bring you professional growth and personal fulfillment! 🚀"
+    },
+    {
+      "id": "professional_11",
+      "categoryId": "professional",
+      "text": "Wishing you a wonderful birthday! 🎊 Your positive attitude makes our workplace better! Enjoy your day! 💼"
+    },
+    {
+      "id": "professional_12",
+      "categoryId": "professional",
+      "text": "Happy Birthday! 🎈 May your career continue to flourish and your goals be achieved! 🌟"
+    },
+    {
+      "id": "professional_13",
+      "categoryId": "professional",
+      "text": "Best wishes on your special day! 🎉 Your professionalism and work ethic are exemplary! 💼✨"
+    },
+    {
+      "id": "professional_14",
+      "categoryId": "professional",
+      "text": "Happy Birthday! 🎂 Thank you for being such a reliable and skilled colleague! Have a great day! 🌟"
+    },
+    {
+      "id": "professional_15",
+      "categoryId": "professional",
+      "text": "Wishing you success and happiness on your birthday! 🎊 You're a valuable asset to our team! 💼"
+    },
+    {
+      "id": "professional_16",
+      "categoryId": "professional",
+      "text": "Happy Birthday! 🎈 May the year ahead be filled with exciting opportunities and achievements! 🚀"
+    },
+    {
+      "id": "professional_17",
+      "categoryId": "professional",
+      "text": "Warmest birthday greetings! 🎉 Your expertise and dedication are truly commendable! Enjoy your celebration! 💼"
+    },
+    {
+      "id": "professional_18",
+      "categoryId": "professional",
+      "text": "Happy Birthday! 🎂 Wishing you continued excellence in all your professional endeavors! 🌟"
+    },
+    {
+      "id": "professional_19",
+      "categoryId": "professional",
+      "text": "Best wishes on your birthday! 🎊 Thank you for your consistent professionalism and hard work! 💼✨"
+    },
+    {
+      "id": "professional_20",
+      "categoryId": "professional",
+      "text": "Happy Birthday! 🎈 May this year bring you recognition and success you truly deserve! 🏆"
+    },
+    {
+      "id": "milestone_1",
+      "categoryId": "milestone",
+      "text": "Welcome to the fabulous [age]! 🎊 This milestone is just the beginning of amazing things! 🌟"
+    },
+    {
+      "id": "milestone_2",
+      "categoryId": "milestone",
+      "text": "Happy [age]th Birthday! 🎉 You're not getting older, you're getting bolder! Cheers to this chapter! 🥂"
+    },
+    {
+      "id": "milestone_3",
+      "categoryId": "milestone",
+      "text": "Turning [age] never looked so good! 💫 Happy Birthday! May this decade be your best yet! 🎂"
+    },
+    {
+      "id": "milestone_4",
+      "categoryId": "milestone",
+      "text": "Happy [age]th Birthday! 🎂 A new decade means new adventures, new dreams, and new memories! 🌈"
+    },
+    {
+      "id": "milestone_5",
+      "categoryId": "milestone",
+      "text": "Celebrating [age] years of awesome! 🎉 Here's to embracing this milestone with style and grace! ✨"
+    },
+    {
+      "id": "milestone_6",
+      "categoryId": "milestone",
+      "text": "Happy [age]th! 🥳 They say life begins at [age] – let the adventure begin! 🚀"
+    },
+    {
+      "id": "milestone_7",
+      "categoryId": "milestone",
+      "text": "Welcome to [age]! 🎊 This is your time to shine brighter than ever! You've earned it! 🌟"
+    },
+    {
+      "id": "milestone_8",
+      "categoryId": "milestone",
+      "text": "Happy [age]th Birthday! 🎂 You're not [age], you're 18 with [age minus 18] years of experience! 😄"
+    },
+    {
+      "id": "milestone_9",
+      "categoryId": "milestone",
+      "text": "[Age] looks absolutely incredible on you! 💫 Happy Birthday! May this milestone year be magical! 🎉"
+    },
+    {
+      "id": "milestone_10",
+      "categoryId": "milestone",
+      "text": "Happy [age]th Birthday! 🥂 Here's to the wisdom of experience and the excitement of what's ahead! 🌟"
+    },
+    {
+      "id": "milestone_11",
+      "categoryId": "milestone",
+      "text": "Cheers to [age] years of being amazing! 🎊 This milestone is proof of your incredible journey! 🎂✨"
+    },
+    {
+      "id": "milestone_12",
+      "categoryId": "milestone",
+      "text": "Happy [age]th! 🎉 You've reached a milestone worth celebrating big! Make it unforgettable! 🎆"
+    },
+    {
+      "id": "milestone_13",
+      "categoryId": "milestone",
+      "text": "Welcome to the [age] club! 🎈 The best years are still ahead of you! Happy Birthday! 🌟"
+    },
+    {
+      "id": "milestone_14",
+      "categoryId": "milestone",
+      "text": "Happy [age]th Birthday! 🎂 This milestone marks the beginning of your greatest chapter! 📖✨"
+    },
+    {
+      "id": "milestone_15",
+      "categoryId": "milestone",
+      "text": "[Age] and fabulous! 💃 Happy Birthday! May this year bring everything you've been dreaming of! 🎉"
+    },
+    {
+      "id": "milestone_16",
+      "categoryId": "milestone",
+      "text": "Happy [age]th! 🥳 You're officially a vintage model – classic, valuable, and highly sought after! 🏆"
+    },
+    {
+      "id": "milestone_17",
+      "categoryId": "milestone",
+      "text": "Celebrating [age] incredible years! 🎊 Here's to the memories made and the adventures to come! 🌈"
+    },
+    {
+      "id": "milestone_18",
+      "categoryId": "milestone",
+      "text": "Happy [age]th Birthday! 🎂 This milestone is your moment to shine! Celebrate yourself today! ⭐"
+    },
+    {
+      "id": "milestone_19",
+      "categoryId": "milestone",
+      "text": "Welcome to [age]! 🎉 Age is just a number, and yours happens to be perfect! Have a blast! 💫"
+    },
+    {
+      "id": "milestone_20",
+      "categoryId": "milestone",
+      "text": "Happy [age]th! 🥂 You've earned every candle on that cake! Here's to your amazing milestone! 🎂✨"
+    },
+    {
+      "id": "spiritual_1",
+      "categoryId": "spiritual",
+      "text": "Happy Birthday! 🙏 May God bless you with health, happiness, and countless blessings this year! ✨"
+    },
+    {
+      "id": "spiritual_2",
+      "categoryId": "spiritual",
+      "text": "On your special day, may you feel God's love surrounding you! 💜 Happy Birthday! You are blessed! 🌟"
+    },
+    {
+      "id": "spiritual_3",
+      "categoryId": "spiritual",
+      "text": "Happy Birthday! 🎂 May your faith continue to guide you and your blessings multiply! 🙏✨"
+    },
+    {
+      "id": "spiritual_4",
+      "categoryId": "spiritual",
+      "text": "Wishing you a blessed birthday! 🌸 May God's grace shine upon you today and always! 💫"
+    },
+    {
+      "id": "spiritual_5",
+      "categoryId": "spiritual",
+      "text": "Happy Birthday! 🎉 Thank God for the gift of you! May your year be filled with His peace! 🙏💖"
+    },
+    {
+      "id": "spiritual_6",
+      "categoryId": "spiritual",
+      "text": "May the Lord bless you abundantly on your birthday! 🙏 Happy Birthday! Walk in His light! ✨"
+    },
+    {
+      "id": "spiritual_7",
+      "categoryId": "spiritual",
+      "text": "Happy Birthday! 🎂 May your life be a reflection of God's love and grace! Blessed be your year! 💜"
+    },
+    {
+      "id": "spiritual_8",
+      "categoryId": "spiritual",
+      "text": "On your birthday, I pray for joy, health, and divine guidance! 🙏 Happy Birthday! Stay blessed! 🌟"
+    },
+    {
+      "id": "spiritual_9",
+      "categoryId": "spiritual",
+      "text": "Happy Birthday! 🎉 May God's favor follow you all the days of your life! You are cherished! 💖"
+    },
+    {
+      "id": "spiritual_10",
+      "categoryId": "spiritual",
+      "text": "Blessed birthday to you! 🌸 May your faith grow stronger and your spirit shine brighter! 🙏✨"
+    },
+    {
+      "id": "spiritual_11",
+      "categoryId": "spiritual",
+      "text": "Happy Birthday! 🎂 May the Almighty grant you wisdom, peace, and prosperity this year! 🙏💫"
+    },
+    {
+      "id": "spiritual_12",
+      "categoryId": "spiritual",
+      "text": "On your special day, may you feel the presence of divine love! 💜 Happy Birthday! Be blessed! 🌟"
+    },
+    {
+      "id": "spiritual_13",
+      "categoryId": "spiritual",
+      "text": "Happy Birthday! 🎉 May God's plan for your life unfold beautifully in the year ahead! 🙏✨"
+    },
+    {
+      "id": "spiritual_14",
+      "categoryId": "spiritual",
+      "text": "Wishing you a birthday filled with spiritual growth and heavenly blessings! 🌸 Happy Birthday! 🙏"
+    },
+    {
+      "id": "spiritual_15",
+      "categoryId": "spiritual",
+      "text": "Happy Birthday! 🎂 May your path be illuminated by faith and your heart filled with peace! 💜✨"
+    },
+    {
+      "id": "spiritual_16",
+      "categoryId": "spiritual",
+      "text": "May the Lord's blessings overflow in your life today! 🙏 Happy Birthday! You are a gift! 🎁💖"
+    },
+    {
+      "id": "spiritual_17",
+      "categoryId": "spiritual",
+      "text": "Happy Birthday! 🎉 May your faith be your strength and God's love be your comfort always! 🙏✨"
+    },
+    {
+      "id": "spiritual_18",
+      "categoryId": "spiritual",
+      "text": "On your birthday, I pray for miracles, joy, and divine protection! 🌸 Happy Birthday! 🙏💫"
+    },
+    {
+      "id": "spiritual_19",
+      "categoryId": "spiritual",
+      "text": "Happy Birthday! 🎂 May you continue to walk in grace and be surrounded by God's love! 💜🙏"
+    },
+    {
+      "id": "spiritual_20",
+      "categoryId": "spiritual",
+      "text": "Blessed be your birthday! 🎉 May the light of faith guide you through another beautiful year! 🙏✨"
+    },
+    {
+      "id": "kids_1",
+      "categoryId": "kids",
+      "text": "Happy Birthday, superstar! 🌟 Hope your day is filled with cake, presents, and lots of fun! 🎂🎁"
+    },
+    {
+      "id": "kids_2",
+      "categoryId": "kids",
+      "text": "Yay! It's your birthday! 🎉 Time to party, play, and have the best day ever! 🎈🎊"
+    },
+    {
+      "id": "kids_3",
+      "categoryId": "kids",
+      "text": "Happy Birthday to the coolest kid around! 😎 Hope you get all the toys and treats you want! 🎁🍭"
+    },
+    {
+      "id": "kids_4",
+      "categoryId": "kids",
+      "text": "It's your special day! 🎂 Time to celebrate YOU! Have a super-duper awesome birthday! 🦸🎉"
+    },
+    {
+      "id": "kids_5",
+      "categoryId": "kids",
+      "text": "Happy Birthday! 🎈 You're [age] today! That's so cool! Hope you have the most amazing day! 🌟"
+    },
+    {
+      "id": "kids_6",
+      "categoryId": "kids",
+      "text": "Hooray! It's party time! 🎊 Happy Birthday! May your day be magical and full of surprises! 🎁✨"
+    },
+    {
+      "id": "kids_7",
+      "categoryId": "kids",
+      "text": "Happy Birthday, champ! 🏆 You're growing up so fast! Have the best birthday celebration ever! 🎉"
+    },
+    {
+      "id": "kids_8",
+      "categoryId": "kids",
+      "text": "To an awesome [age]-year-old! 🎂 Happy Birthday! Hope your wishes all come true! 🌟🎈"
+    },
+    {
+      "id": "kids_9",
+      "categoryId": "kids",
+      "text": "Happy Birthday! 🎉 Get ready for cake, games, and tons of birthday fun! You rock! 🎸🎂"
+    },
+    {
+      "id": "kids_10",
+      "categoryId": "kids",
+      "text": "It's your birthday! 🎈 Time to play, laugh, and celebrate! You deserve the best day ever! 🌟"
+    },
+    {
+      "id": "kids_11",
+      "categoryId": "kids",
+      "text": "Happy Birthday to an incredible kid! 🦄 May your day be filled with magic and happiness! ✨🎂"
+    },
+    {
+      "id": "kids_12",
+      "categoryId": "kids",
+      "text": "You're [age] today! Wow! 🎉 Happy Birthday! Hope you have so much fun you can't stop smiling! 😄"
+    },
+    {
+      "id": "kids_13",
+      "categoryId": "kids",
+      "text": "Happy Birthday, little legend! 🌟 May your day be packed with adventures and sweet treats! 🎂🎈"
+    },
+    {
+      "id": "kids_14",
+      "categoryId": "kids",
+      "text": "It's birthday time! 🎊 Happy Birthday! Hope you get to do all your favorite things today! 🎮🎨"
+    },
+    {
+      "id": "kids_15",
+      "categoryId": "kids",
+      "text": "Happy Birthday! 🎂 You're special, amazing, and totally awesome! Have the best day! 🌈⭐"
+    },
+    {
+      "id": "kids_16",
+      "categoryId": "kids",
+      "text": "To the birthday kid! 🎉 Hope your day is full of laughter, friends, and yummy cake! 🎂👾"
+    },
+    {
+      "id": "kids_17",
+      "categoryId": "kids",
+      "text": "Happy Birthday, rockstar! 🎸 You're [age] and fabulous! Party hard and have a blast! 🎊"
+    },
+    {
+      "id": "kids_18",
+      "categoryId": "kids",
+      "text": "It's your big day! 🎈 Happy Birthday! May all your birthday wishes come true! 🌟🎁"
+    },
+    {
+      "id": "kids_19",
+      "categoryId": "kids",
+      "text": "Happy Birthday! 🎉 You're growing into such an amazing person! Enjoy every moment today! 🎂💫"
+    },
+    {
+      "id": "kids_20",
+      "categoryId": "kids",
+      "text": "Hooray for you! 🎊 Happy Birthday! Hope your special day is filled with fun and happiness! 🎈😄"
+    },
+    {
+      "id": "belated_1",
+      "categoryId": "belated",
+      "text": "Oops! Belated Happy Birthday! ⏰ Hope your day was amazing! Wishing you a fantastic year ahead! 🎂"
+    },
+    {
+      "id": "belated_2",
+      "categoryId": "belated",
+      "text": "Better late than never! 🎉 Belated Happy Birthday! Hope you had a wonderful celebration! 🎈"
+    },
+    {
+      "id": "belated_3",
+      "categoryId": "belated",
+      "text": "I'm fashionably late! 😅 Belated Happy Birthday! May your year be filled with blessings! 🎂✨"
+    },
+    {
+      "id": "belated_4",
+      "categoryId": "belated",
+      "text": "Sorry I'm late! ⏰ Happy Belated Birthday! Hope your special day was as awesome as you are! 🎉"
+    },
+    {
+      "id": "belated_5",
+      "categoryId": "belated",
+      "text": "Time got away from me! 🕐 Belated Happy Birthday! Wishing you joy all year long! 🎂💖"
+    },
+    {
+      "id": "belated_6",
+      "categoryId": "belated",
+      "text": "The party doesn't have to stop! 🎊 Belated Happy Birthday! Hope your celebration was epic! 🎉"
+    },
+    {
+      "id": "belated_7",
+      "categoryId": "belated",
+      "text": "I may be late, but my wishes are just as sincere! ⏰ Belated Happy Birthday! 🎂💕"
+    },
+    {
+      "id": "belated_8",
+      "categoryId": "belated",
+      "text": "Oops, I missed the big day! 😅 Belated Happy Birthday! Hope it was unforgettable! 🎉✨"
+    },
+    {
+      "id": "belated_9",
+      "categoryId": "belated",
+      "text": "Your birthday deserves more than one day of celebration! 🎊 Belated Happy Birthday! 🎂"
+    },
+    {
+      "id": "belated_10",
+      "categoryId": "belated",
+      "text": "Sorry for the delay! ⏰ Belated Happy Birthday! May this year bring you everything you wish for! 🌟"
+    },
+    {
+      "id": "belated_11",
+      "categoryId": "belated",
+      "text": "I'm a little late, but the good wishes are still warm! 🎉 Belated Happy Birthday! 🎂💖"
+    },
+    {
+      "id": "belated_12",
+      "categoryId": "belated",
+      "text": "Belated Happy Birthday! ⏰ The best things in life are worth waiting for – including my wishes! 🎊"
+    },
+    {
+      "id": "belated_13",
+      "categoryId": "belated",
+      "text": "Better late than never, right? 😄 Belated Happy Birthday! Hope your day was spectacular! 🎂✨"
+    },
+    {
+      "id": "belated_14",
+      "categoryId": "belated",
+      "text": "I may have missed the date, but you're always in my thoughts! ⏰ Belated Happy Birthday! 🎉💕"
+    },
+    {
+      "id": "belated_15",
+      "categoryId": "belated",
+      "text": "Fashionably late as always! 🎊 Belated Happy Birthday! Hope you had an amazing time! 🎂"
+    },
+    {
+      "id": "belated_16",
+      "categoryId": "belated",
+      "text": "Sorry I'm late to the party! ⏰ Belated Happy Birthday! Wishing you happiness all year! 🎉💖"
+    },
+    {
+      "id": "belated_17",
+      "categoryId": "belated",
+      "text": "The celebration continues! 🎊 Belated Happy Birthday! Hope your special day was perfect! 🎂✨"
+    },
+    {
+      "id": "belated_18",
+      "categoryId": "belated",
+      "text": "I'm late but my heart is in the right place! ⏰ Belated Happy Birthday! You're amazing! 🎉💕"
+    },
+    {
+      "id": "belated_19",
+      "categoryId": "belated",
+      "text": "Belated Happy Birthday! 🎂 May the year ahead be filled with wonderful surprises! ⏰✨"
+    },
+    {
+      "id": "belated_20",
+      "categoryId": "belated",
+      "text": "Sorry for the late wishes! 😅 Belated Happy Birthday! Hope your day was absolutely fantastic! 🎉🎂"
+    }
+  ]
+}
