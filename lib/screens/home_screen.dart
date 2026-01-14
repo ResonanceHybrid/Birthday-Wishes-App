@@ -201,17 +201,18 @@ class _HomeScreenState extends State<HomeScreen> {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Container(
-                      width: 52,
-                      height: 52,
-                      decoration: const BoxDecoration(
+                      width: 80,
+                      height: 80,
+                      decoration: BoxDecoration(
                         color: Colors.white,
-                        shape: BoxShape.circle,
+                        borderRadius: BorderRadius.circular(16),
                       ),
-                      child: ClipOval(
+                      child: ClipRRect(
+                        borderRadius: BorderRadius.circular(12),
                         child: Padding(
                           padding: const EdgeInsets.all(4),
                           child: Image.asset(
-                            'lib/assets/logo.png',
+                            'assets/icon/app_icon.png',
                             fit: BoxFit.contain,
                           ),
                         ),
