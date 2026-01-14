@@ -16,11 +16,11 @@ class ContactUsScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     final email = 'Sandipvai4456@gmail.com'; // ✅ change this
     //final website = 'https://birthdaywishes.app'; // ✅ change this
-    final subject = Uri.encodeComponent('Support - Birthday Wishes App');
+    final subject = Uri.encodeComponent('سپورٹ - سالگرہ مبارک ایپ');
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Contact Us'),
+        title: const Text('رابطہ کریں'),
       ),
       body: SingleChildScrollView(
         padding: const EdgeInsets.all(24),
@@ -57,7 +57,7 @@ class ContactUsScreen extends StatelessWidget {
             const SizedBox(height: 18),
 
             Text(
-              'Contact Us',
+              'رابطہ کریں',
               style: Theme.of(context).textTheme.headlineLarge?.copyWith(
                     fontWeight: FontWeight.bold,
                   ),
@@ -65,7 +65,7 @@ class ContactUsScreen extends StatelessWidget {
             const SizedBox(height: 8),
 
             Text(
-              'We usually reply within 24–48 hours.',
+              'ہم عموماً 24-48 گھنٹوں میں جواب دیتے ہیں۔',
               textAlign: TextAlign.center,
               style: Theme.of(context).textTheme.bodyMedium?.copyWith(
                     color: AppColors.textSecondary,
@@ -82,7 +82,7 @@ class ContactUsScreen extends StatelessWidget {
                 borderRadius: BorderRadius.circular(16),
               ),
               child: Text(
-                'If you have any questions, feedback, or issues, feel free to contact us. Please include your device model and Android version for faster support.',
+                'اگر آپ کے کوئی سوالات، رائے یا مسائل ہیں تو ہم سے رابطہ کریں۔ براہ کرم فوری مدد کے لیے اپنے فون کا ماڈل اور اینڈرائڈ ورژن شامل کریں۔',
                 textAlign: TextAlign.center,
                 style: Theme.of(context).textTheme.bodyLarge?.copyWith(
                       height: 1.6,
@@ -96,7 +96,7 @@ class ContactUsScreen extends StatelessWidget {
             _contactTile(
               context,
               icon: Icons.email_outlined,
-              title: 'Email Support',
+              title: 'ای میل سپورٹ',
               subtitle: email,
               onTap: () => _openUrl(
                 Uri.parse('mailto:$email?subject=$subject'),
@@ -114,11 +114,11 @@ class ContactUsScreen extends StatelessWidget {
             _contactTile(
               context,
               icon: Icons.bug_report_outlined,
-              title: 'Report a Bug',
-              subtitle: 'Send details & screenshot',
+              title: 'بگ رپورٹ کریں',
+              subtitle: 'تفصیلات اور اسکرین شاٹ بھیجیں',
               onTap: () => _openUrl(
                 Uri.parse(
-                  'mailto:$email?subject=${Uri.encodeComponent('Bug Report - Birthday Wishes')}',
+                  'mailto:$email?subject=${Uri.encodeComponent('بگ رپورٹ - سالگرہ مبارک')}',
                 ),
               ),
             ),
@@ -126,7 +126,7 @@ class ContactUsScreen extends StatelessWidget {
             const SizedBox(height: 28),
 
             Text(
-              'Made with ❤️',
+              'محبت سے بنایا گیا ❤️',
               style: Theme.of(context).textTheme.bodyMedium?.copyWith(
                     color: AppColors.textSecondary,
                   ),

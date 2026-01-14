@@ -61,7 +61,7 @@ class _WishEditorScreenState extends State<WishEditorScreen> {
     showDialog(
       context: context,
       builder: (context) => AlertDialog(
-        title: const Text('Pick a color'),
+        title: const Text('رنگ منتخب کریں'),
         content: SingleChildScrollView(
           child: BlockPicker(
             pickerColor: _textColor,
@@ -73,7 +73,7 @@ class _WishEditorScreenState extends State<WishEditorScreen> {
         actions: [
           TextButton(
             onPressed: () => Navigator.pop(context),
-            child: const Text('Done'),
+            child: const Text('ٹھیک ہے'),
           ),
         ],
       ),
@@ -134,8 +134,8 @@ class _WishEditorScreenState extends State<WishEditorScreen> {
               ),
               const SizedBox(width: 12),
               Text(success
-                  ? 'Image saved to gallery! 🎉'
-                  : 'Failed to save image'),
+                  ? 'تصویر گیلری میں محفوظ ہو گئی! 🎉'
+                  : 'تصویر محفوظ کرنے میں ناکامی'),
             ],
           ),
           backgroundColor: success ? AppColors.success : AppColors.error,
@@ -151,7 +151,7 @@ class _WishEditorScreenState extends State<WishEditorScreen> {
   Future<void> _shareImage() async {
     await ImageSaver.captureAndShare(
       _repaintBoundaryKey,
-      text: 'Check out this birthday wish! 🎂✨',
+      text: 'یہ سالگرہ پیغام دیکھیں! 🎂✨',
     );
   }
 
@@ -161,7 +161,7 @@ class _WishEditorScreenState extends State<WishEditorScreen> {
     
     ScaffoldMessenger.of(context).showSnackBar(
       SnackBar(
-        content: Text(isFav ? 'Added to favorites ❤️' : 'Removed from favorites'),
+        content: Text(isFav ? 'پسندیدہ میں شامل کیا گیا ❤️' : 'پسندیدہ سے ہٹا دیا گیا'),
         duration: const Duration(seconds: 1),
         behavior: SnackBarBehavior.floating,
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
@@ -173,7 +173,7 @@ class _WishEditorScreenState extends State<WishEditorScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Customize Wish'),
+        title: const Text('پیغام سجائیں'),
         actions: [
           IconButton(
             icon: Icon(
@@ -208,7 +208,7 @@ class _WishEditorScreenState extends State<WishEditorScreen> {
 
             // Text Editor
             Text(
-              'Edit Text',
+              'متن تبدیل کریں',
               style: Theme.of(context).textTheme.titleMedium,
             ),
             const SizedBox(height: 8),
@@ -217,7 +217,7 @@ class _WishEditorScreenState extends State<WishEditorScreen> {
               maxLines: 4,
               onChanged: (value) => setState(() {}),
               decoration: InputDecoration(
-                hintText: 'Enter your birthday wish...',
+                hintText: 'اپنی سالگرہ کی مبارکباد لکھیں...',
                 border: OutlineInputBorder(
                   borderRadius: BorderRadius.circular(12),
                 ),
@@ -246,7 +246,7 @@ class _WishEditorScreenState extends State<WishEditorScreen> {
 
             // Font Selector
             Text(
-              'Font Style',
+              'فونٹ اسٹائل',
               style: Theme.of(context).textTheme.titleMedium,
             ),
             const SizedBox(height: 8),
@@ -266,7 +266,7 @@ class _WishEditorScreenState extends State<WishEditorScreen> {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text(
-                        'Text Size',
+                        'متن سائز',
                         style: Theme.of(context).textTheme.titleMedium,
                       ),
                       const SizedBox(height: 8),
@@ -288,7 +288,7 @@ class _WishEditorScreenState extends State<WishEditorScreen> {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      'Color',
+                      'رنگ',
                       style: Theme.of(context).textTheme.titleMedium,
                     ),
                     const SizedBox(height: 8),
@@ -327,7 +327,7 @@ class _WishEditorScreenState extends State<WishEditorScreen> {
               child: OutlinedButton.icon(
                 onPressed: _showBackgroundSelector,
                 icon: const Icon(Icons.image),
-                label: const Text('Change Background'),
+                label: const Text('پس منظر تبدیل کریں'),
                 style: OutlinedButton.styleFrom(
                   padding: const EdgeInsets.symmetric(vertical: 14),
                   shape: RoundedRectangleBorder(
@@ -353,7 +353,7 @@ class _WishEditorScreenState extends State<WishEditorScreen> {
                         ),
                       )
                     : const Icon(Icons.download),
-                label: Text(_isSaving ? 'Saving...' : 'Download to Gallery'),
+                label: Text(_isSaving ? 'محفوظ ہو رہا ہے...' : 'گیلری میں ڈاؤن لوڈ کریں'),
                 style: ElevatedButton.styleFrom(
                   padding: const EdgeInsets.symmetric(vertical: 16),
                   shape: RoundedRectangleBorder(

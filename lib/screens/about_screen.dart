@@ -9,7 +9,7 @@ class AboutScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('About'),
+        title: const Text('ہمارے بارے میں'),
       ),
       body: SingleChildScrollView(
         padding: const EdgeInsets.all(24),
@@ -43,14 +43,14 @@ class AboutScreen extends StatelessWidget {
             const SizedBox(height: 24),
             // App Name
             Text(
-              'Birthday Wishes',
+              'سالگرہ مبارک',
               style: Theme.of(context).textTheme.headlineLarge?.copyWith(
                     fontWeight: FontWeight.bold,
                   ),
             ),
             const SizedBox(height: 8),
             Text(
-              'Version 1.0.0',
+              'ورژن 1.0.0',
               style: Theme.of(context).textTheme.bodyMedium?.copyWith(
                     color: AppColors.textSecondary,
                   ),
@@ -64,7 +64,7 @@ class AboutScreen extends StatelessWidget {
                 borderRadius: BorderRadius.circular(16),
               ),
               child: Text(
-                'Birthday Wishes helps you create beautiful, personalized birthday messages for your loved ones. Choose from a variety of categories, customize the text with different fonts and colors, add stunning backgrounds, and share your creations!',
+                'سالگرہ مبارک ایپ آپ کے پیاروں کے لیے خوبصورت اور ذاتی سالگرہ پیغامات بنانے میں مدد کرتی ہے۔ مختلف زمروں میں سے منتخب کریں، مختلف فونٹس اور رنگوں سے متن کو ترتیب دیں، شاندار پس مناظر شامل کریں اور اپنی تخلیقات شیئر کریں!',
                 textAlign: TextAlign.center,
                 style: Theme.of(context).textTheme.bodyLarge?.copyWith(
                       height: 1.6,
@@ -76,31 +76,31 @@ class AboutScreen extends StatelessWidget {
             _buildFeatureItem(
               context,
               icon: Icons.category,
-              title: '10 Categories',
-              description: 'Funny, Romantic, Family, Friend & Inspirational',
+              title: '10 زمرے',
+              description: 'مزاحیہ، رومانوی، خاندانی، دوست اور حوصلہ افزا',
             ),
             _buildFeatureItem(
               context,
               icon: Icons.text_fields,
-              title: 'Custom Fonts',
-              description: 'Choose from 6 beautiful font styles',
+              title: 'خوبصورت فونٹس',
+              description: '6 خوبصورت فونٹ اسٹائلز میں سے منتخب کریں',
             ),
             _buildFeatureItem(
               context,
               icon: Icons.palette,
-              title: 'Stunning Backgrounds',
-              description: 'Gradients, solid colors, or your own images',
+              title: 'شاندار پس مناظر',
+              description: 'گریڈیئنٹ، سادہ رنگ، یا اپنی تصاویر',
             ),
             _buildFeatureItem(
               context,
               icon: Icons.download,
-              title: 'Download & Share',
-              description: 'Save your wishes as images',
+              title: 'ڈاؤن لوڈ اور شیئر',
+              description: 'اپنے پیغامات تصویر کے طور پر محفوظ کریں',
             ),
             const SizedBox(height: 32),
             // Developer Info
             Text(
-              'Made with ❤️',
+              'محبت سے بنایا گیا ❤️',
               style: Theme.of(context).textTheme.bodyMedium?.copyWith(
                     color: AppColors.textSecondary,
                   ),

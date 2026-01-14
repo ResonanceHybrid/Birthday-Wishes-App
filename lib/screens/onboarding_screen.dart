@@ -18,23 +18,23 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
   final List<OnboardingData> _pages = [
     OnboardingData(
       emoji: '🎂',
-      title: 'Beautiful Birthday Wishes',
+      title: 'خوبصورت سالگرہ کی مبارکباد',
       description:
-          'Choose from hundreds of heartfelt birthday wishes for friends, family, and loved ones.',
+          'دوستوں، خاندان اور پیاروں کے لیے سیکڑوں دلی سالگرہ کے پیغامات میں سے منتخب کریں۔',
       gradient: [const Color(0xFFFF9A8B), const Color(0xFFFF6A88)],
     ),
     OnboardingData(
       emoji: '✨',
-      title: 'Customize Your Message',
+      title: 'اپنا پیغام بنائیں',
       description:
-          'Personalize your wishes with beautiful fonts, colors, and stunning backgrounds.',
+          'خوبصورت فونٹس، رنگوں اور شاندار پس منظر کے ساتھ اپنے پیغامات کو سجائیں۔',
       gradient: [const Color(0xFF667EEA), const Color(0xFF764BA2)],
     ),
     OnboardingData(
       emoji: '📱',
-      title: 'Download & Share',
+      title: 'ڈاؤن لوڈ اور شیئر کریں',
       description:
-          'Save your creation as an image and share it with your loved ones on any platform.',
+          'اپنی تخلیق کو تصویر کے طور پر محفوظ کریں اور کسی بھی پلیٹ فارم پر اپنے پیاروں کے ساتھ شیئر کریں۔',
       gradient: [const Color(0xFF11998E), const Color(0xFF38EF7D)],
     ),
   ];
@@ -83,7 +83,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
             child: TextButton(
               onPressed: _completeOnboarding,
               child: const Text(
-                'Skip',
+                'چھوڑیں',
                 style: TextStyle(
                   color: Colors.white,
                   fontSize: 16,
@@ -135,8 +135,8 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                     ),
                     child: Text(
                       _currentPage == _pages.length - 1
-                          ? 'Get Started'
-                          : 'Next',
+                          ? 'شروع کریں'
+                          : 'اگلا',
                       style: const TextStyle(
                         fontSize: 18,
                         fontWeight: FontWeight.w600,

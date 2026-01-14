@@ -91,7 +91,7 @@ class _WishListScreenState extends State<WishListScreen> {
                       ),
                       const SizedBox(height: 16),
                       Text(
-                        'No wishes found',
+                        'کوئی پیغام نہیں ملا',
                         style: Theme.of(context).textTheme.titleLarge,
                       ),
                     ],

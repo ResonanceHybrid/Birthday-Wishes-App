@@ -113,7 +113,7 @@ class _SplashScreenState extends State<SplashScreen>
                 ),
                 const SizedBox(height: 32),
                 const Text(
-                  'Birthday Wishes',
+                    'سالگرہ مبارک',
                   style: TextStyle(
                     fontSize: 32,
                     fontWeight: FontWeight.bold,
@@ -123,7 +123,7 @@ class _SplashScreenState extends State<SplashScreen>
                 ),
                 const SizedBox(height: 8),
                 const Text(
-                  'Create & Share Beautiful Wishes',
+                  'خوبصورت پیغامات بنائیں اور شیئر کریں',
                   style: TextStyle(
                     fontSize: 16,
                     color: Colors.white70,

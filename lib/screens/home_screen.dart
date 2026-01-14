@@ -74,22 +74,22 @@ class _HomeScreenState extends State<HomeScreen> {
     final shouldExit = await showDialog<bool>(
       context: context,
       builder: (context) => AlertDialog(
-        title: const Text("Exit App"),
-        content: const Text("Do you want to exit the Birthday Wishes app?"),
+        title: const Text("ایپ بند کریں"),
+        content: const Text("کیا آپ سالگرہ مبارک ایپ بند کرنا چاہتے ہیں؟"),
         actions: [
           TextButton(
-            onPressed: () => Navigator.of(context).pop(false), // Stay
-            child: const Text("No"),
+            onPressed: () => Navigator.of(context).pop(false),
+            child: const Text("نہیں"),
           ),
           TextButton(
-            onPressed: () => Navigator.of(context).pop(true), // Exit
-            child: const Text("Yes"),
+            onPressed: () => Navigator.of(context).pop(true),
+            child: const Text("ہاں"),
           ),
         ],
       ),
     );
 
-    return shouldExit ?? false; // false → cancel back, true → exit
+    return shouldExit ?? false;
   }
 
   @override
@@ -100,7 +100,7 @@ class _HomeScreenState extends State<HomeScreen> {
         appBar: AppBar(
           title: const Row(
             mainAxisSize: MainAxisSize.min,
-            children: [Text('🎂 '), Text('Birthday Wishes')],
+            children: [Text('🎂 '), Text('سالگرہ مبارک')],
           ),
           actions: [
             IconButton(
@@ -128,12 +128,12 @@ class _HomeScreenState extends State<HomeScreen> {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Text(
-                              'Hello! 👋',
+                              'خوش آمدید! 👋',
                               style: Theme.of(context).textTheme.headlineMedium,
                             ),
                             const SizedBox(height: 4),
                             Text(
-                              'Choose a category to find the perfect birthday wish',
+                              'بہترین سالگرہ پیغام تلاش کرنے کے لیے زمرہ منتخب کریں',
                               style: Theme.of(context).textTheme.bodyMedium,
                             ),
                             const SizedBox(height: 24),
@@ -219,7 +219,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     ),
                     const SizedBox(height: 10),
                     const Text(
-                      'Birthday Wishes',
+                      'سالگرہ مبارک',
                       style: TextStyle(
                         color: Colors.white,
                         fontSize: 18,
@@ -228,7 +228,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     ),
                     const SizedBox(height: 4),
                     const Text(
-                      'Create & Share Beautiful Wishes',
+                      'خوبصورت پیغامات بنائیں اور شیئر کریں',
                       style: TextStyle(color: Colors.white70, fontSize: 13),
                     ),
                   ],
@@ -238,12 +238,12 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
           ListTile(
             leading: const Icon(Icons.home),
-            title: const Text('Home'),
+            title: const Text('ہوم'),
             onTap: () => Navigator.pop(context),
           ),
           ListTile(
             leading: const Icon(Icons.favorite),
-            title: const Text('Favorites'),
+            title: const Text('پسندیدہ'),
             onTap: () {
               Navigator.pop(context);
               Navigator.push(
@@ -254,7 +254,7 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
           ListTile(
             leading: const Icon(Icons.contact_support),
-            title: const Text('Contact Us'),
+            title: const Text('رابطہ کریں'),
             onTap: () {
               Navigator.pop(context);
               Navigator.push(
@@ -266,7 +266,7 @@ class _HomeScreenState extends State<HomeScreen> {
           const Divider(),
           ListTile(
             leading: const Icon(Icons.info_outline),
-            title: const Text('About'),
+            title: const Text('ہمارے بارے میں'),
             onTap: () {
               Navigator.pop(context);
               Navigator.push(
@@ -277,7 +277,7 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
           ListTile(
             leading: const Icon(Icons.privacy_tip_outlined),
-            title: const Text('Privacy Policy'),
+            title: const Text('رازداری پالیسی'),
             onTap: () {
               Navigator.pop(context);
               Navigator.push(

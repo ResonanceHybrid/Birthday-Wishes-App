@@ -8,19 +8,19 @@ class PrivacyPolicyScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Privacy Policy')),
+      appBar: AppBar(title: const Text('رازداری پالیسی')),
       body: SingleChildScrollView(
         padding: const EdgeInsets.all(24),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text(
-              'Privacy Policy',
+              'رازداری پالیسی',
               style: Theme.of(context).textTheme.headlineMedium,
             ),
             const SizedBox(height: 8),
             Text(
-              'Last updated: January 2026',
+              'آخری ترمیم: جنوری 2026',
               style: Theme.of(
                 context,
               ).textTheme.bodyMedium?.copyWith(color: AppColors.textSecondary),
@@ -28,57 +28,57 @@ class PrivacyPolicyScreen extends StatelessWidget {
             const SizedBox(height: 24),
             _buildSection(
               context,
-              title: 'Introduction',
+              title: 'تعارف',
               content:
-                  'Welcome to Birthday Wishes. We respect your privacy and are committed to protecting your personal data. This privacy policy explains how we handle your information when you use our app.',
+                  'سالگرہ مبارک ایپ میں خوش آمدید۔ ہم آپ کی رازداری کا احترام کرتے ہیں اور آپ کے ذاتی ڈیٹا کی حفاظت کے پابند ہیں۔ یہ رازداری پالیسی بتاتی ہے کہ جب آپ ہماری ایپ استعمال کرتے ہیں تو ہم آپ کی معلومات کو کیسے سنبھالتے ہیں۔',
             ),
             _buildSection(
               context,
-              title: 'Information We Collect',
+              title: 'ہم کیا معلومات جمع کرتے ہیں',
               content:
-                  'Birthday Wishes is designed with privacy in mind. We do not collect, store, or transmit any personal information. All your data remains on your device:\n\n'
-                  '• Favorite wishes are stored locally on your device\n'
-                  '• Custom images you use are not uploaded anywhere\n'
-                  '• We do not track your usage or behavior',
+                  'سالگرہ مبارک رازداری کو مد نظر رکھ کر بنایا گیا ہے۔ ہم کوئی ذاتی معلومات جمع، ذخیرہ یا منتقل نہیں کرتے۔ آپ کا تمام ڈیٹا آپ کے فون پر رہتا ہے:\n\n'
+                  '• پسندیدہ پیغامات آپ کے فون پر محفوظ رہتے ہیں\n'
+                  '• آپ کی تصاویر کہیں اپ لوڈ نہیں ہوتیں\n'
+                  '• ہم آپ کے استعمال کو ٹریک نہیں کرتے',
             ),
             _buildSection(
               context,
-              title: 'Permissions',
+              title: 'اجازتیں',
               content:
-                  'The app may request the following permissions:\n\n'
-                  '• Storage/Photos: To save your created birthday wish images to your gallery\n'
-                  '• Camera Roll/Gallery: To allow you to select custom background images\n\n'
-                  'These permissions are only used for the stated purposes and no data is transmitted.',
+                  'ایپ مندرجہ ذیل اجازتیں مانگ سکتی ہے:\n\n'
+                  '• سٹوریج/فوٹوز: آپ کی سالگرہ کی تصویریں گیلری میں محفوظ کرنے کے لیے\n'
+                  '• کیمرہ رول/گیلری: پس منظر تصویر منتخب کرنے کے لیے\n\n'
+                  'یہ اجازتیں صرف بیان کردہ مقاصد کے لیے استعمال ہوتی ہیں۔',
             ),
             _buildSection(
               context,
-              title: 'Third-Party Services',
+              title: 'فریق ثالث کی خدمات',
               content:
-                  'Birthday Wishes does not integrate with third-party analytics, advertising, or tracking services. Your usage of the app is completely private.',
+                  'سالگرہ مبارک فریق ثالث کے تجزیات، اشتہارات یا ٹریکنگ سروسز کے ساتھ مربوط نہیں ہے۔ آپ کا ایپ استعمال مکمل طور پر نجی ہے۔',
             ),
             _buildSection(
               context,
-              title: 'Data Sharing',
+              title: 'ڈیٹا شیئرنگ',
               content:
-                  'We do not share any data with third parties. When you use the share feature, you are using your device\'s native sharing capabilities, and we have no access to what you share or with whom.',
+                  'ہم کسی بھی فریق ثالث کے ساتھ کوئی ڈیٹا شیئر نہیں کرتے۔ جب آپ شیئر فیچر استعمال کرتے ہیں تو آپ اپنے فون کی مقامی شیئرنگ استعمال کر رہے ہیں۔',
             ),
             _buildSection(
               context,
-              title: 'Children\'s Privacy',
+              title: 'بچوں کی رازداری',
               content:
-                  'Birthday Wishes is suitable for users of all ages. We do not knowingly collect any information from children or any users.',
+                  'سالگرہ مبارک تمام عمروں کے صارفین کے لیے موزوں ہے۔ ہم بچوں یا کسی بھی صارف سے کوئی معلومات جمع نہیں کرتے۔',
             ),
             _buildSection(
               context,
-              title: 'Changes to This Policy',
+              title: 'پالیسی میں تبدیلیاں',
               content:
-                  'We may update this privacy policy from time to time. We will notify you of any changes by posting the new privacy policy on this page and updating the "Last updated" date.',
+                  'ہم وقتاً فوقتاً اس رازداری پالیسی کو اپ ڈیٹ کر سکتے ہیں۔ ہم آپ کو اس صفحے پر نئی پالیسی شائع کر کے مطلع کریں گے۔',
             ),
             _buildSection(
               context,
-              title: 'Contact Us',
+              title: 'رابطہ کریں',
               content:
-                  'If you have any questions about this Privacy Policy, please contact us through the app store listing.',
+                  'اگر اس رازداری پالیسی کے بارے میں کوئی سوال ہو تو ایپ سٹور لسٹنگ کے ذریعے ہم سے رابطہ کریں۔',
             ),
             const SizedBox(height: 32),
             Container(
@@ -93,7 +93,7 @@ class PrivacyPolicyScreen extends StatelessWidget {
                   const SizedBox(width: 12),
                   Expanded(
                     child: Text(
-                      'Your privacy is important to us. This app operates entirely offline and respects your data.',
+                      'آپ کی رازداری ہمارے لیے اہم ہے۔ یہ ایپ مکمل طور پر آف لائن کام کرتی ہے اور آپ کے ڈیٹا کا احترام کرتی ہے۔',
                       style: Theme.of(context).textTheme.bodyMedium,
                     ),
                   ),

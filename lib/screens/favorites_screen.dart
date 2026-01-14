@@ -52,7 +52,7 @@ class _FavoritesScreenState extends State<FavoritesScreen> {
 
     ScaffoldMessenger.of(context).showSnackBar(
       SnackBar(
-        content: const Text('Removed from favorites'),
+        content: const Text('پسندیدہ سے ہٹا دیا گیا'),
         duration: const Duration(seconds: 1),
         behavior: SnackBarBehavior.floating,
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
@@ -69,7 +69,7 @@ class _FavoritesScreenState extends State<FavoritesScreen> {
           children: const [
             Icon(Icons.favorite, color: Colors.red),
             SizedBox(width: 8),
-            Text('Favorites'),
+            Text('پسندیدہ'),
           ],
         ),
       ),
@@ -87,14 +87,14 @@ class _FavoritesScreenState extends State<FavoritesScreen> {
                       ),
                       const SizedBox(height: 16),
                       Text(
-                        'No favorites yet',
+                        'ابھی کوئی پسندیدہ نہیں',
                         style: Theme.of(context).textTheme.titleLarge?.copyWith(
                               color: AppColors.textSecondary,
                             ),
                       ),
                       const SizedBox(height: 8),
                       Text(
-                        'Tap the ❤️ icon on any wish to save it here',
+                        'کسی بھی پیغام پر ❤️ آئیکن دبائیں اسے یہاں محفوظ کرنے کے لیے',
                         style: Theme.of(context).textTheme.bodyMedium,
                         textAlign: TextAlign.center,
                       ),

@@ -43,7 +43,7 @@ class BackgroundSelector extends StatelessWidget {
           ),
           const SizedBox(height: 16),
           const Text(
-            'Choose Background',
+            'پس منظر منتخب کریں',
             style: TextStyle(
               fontSize: 18,
               fontWeight: FontWeight.w600,
@@ -53,13 +53,13 @@ class BackgroundSelector extends StatelessWidget {
           const SizedBox(height: 20),
           
           // Gradient Backgrounds Section
-          _buildSectionTitle('Gradients'),
+          _buildSectionTitle('گریڈیئنٹ'),
           const SizedBox(height: 8),
           _buildGradientGrid(),
           const SizedBox(height: 16),
           
           // Solid Colors Section
-          _buildSectionTitle('Solid Colors'),
+          _buildSectionTitle('سادہ رنگ'),
           const SizedBox(height: 8),
           _buildSolidColorGrid(),
           const SizedBox(height: 16),
@@ -70,7 +70,7 @@ class BackgroundSelector extends StatelessWidget {
             child: OutlinedButton.icon(
               onPressed: () => _pickImage(context),
               icon: const Icon(Icons.add_photo_alternate),
-              label: const Text('Upload Your Image'),
+              label: const Text('اپنی تصویر اپ لوڈ کریں'),
               style: OutlinedButton.styleFrom(
                 foregroundColor: AppColors.primary,
                 side: const BorderSide(color: AppColors.primary),
