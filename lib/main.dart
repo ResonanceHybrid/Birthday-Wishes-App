@@ -27,7 +27,7 @@ void main() async {
   );
 
   // ✅ Initialize OneSignal before running the app
-  OneSignal.initialize("a9ccb240-dd3d-44c4-af04-e6f9aa7401b1");
+  OneSignal.initialize("fc494faa-5d66-41c1-84fb-08a223c2a066");
 
   // Request permission for push notifications
   await OneSignal.Notifications.requestPermission(true);
